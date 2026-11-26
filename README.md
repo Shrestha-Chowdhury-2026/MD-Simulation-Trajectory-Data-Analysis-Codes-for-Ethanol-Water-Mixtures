@@ -24,3 +24,15 @@ This Python script reads a DL_POLY `HISTORY` trajectory file of an ethanol–wat
    ```
 4. The output will be saved as `MSD-etoh-4.5wtwa-py.dat`.
 
+# Ethanol Center-of-Mass Self-Diffusion Coefficient Distribution Calculator
+
+This Python script reads a DL_POLY `HISTORY` trajectory file of an ethanol–water mixture and calculates the center-of-mass Self-Diffusion Coefficent, $D$, for ethanol molecules.
+
+## How to Run
+1. Make sure you have Python and `numpy` installed (`pip install numpy`).
+2. Place your DL_POLY `HISTORY` file in the same folder as `diffusivitydrist-etoh.py`.
+3. Run the script:
+   ```bash
+   python diffusivitydrist-etoh.py
+   ```
+4. The output will be saved as `D-dist-etoh-4.5wtwa-py.dat`.
